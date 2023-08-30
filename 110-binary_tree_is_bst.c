@@ -3,7 +3,7 @@
  * find_node - A function That finds node in a tree
  * @root: The root of the tree to evaluate
  * @node: The node to find
- * Return: 1 if exits, otherwise 0. 
+ * Return: 1 if node exits, otherwise 0.
  */
 int find_node(binary_tree_t *root, binary_tree_t *node)
 {
@@ -40,7 +40,8 @@ int croos_tree(binary_tree_t *root, binary_tree_t *node)
 	return (0);
 }
 /**
- * binary_tree_is_bst - check if binary tree is correctly bst tree
+ * binary_tree_is_bst - This function checks if binary tree is
+ * correctly bst tree
  * @tree: The tree to check
  * Return: 1 if is bst 0 if not
  */
